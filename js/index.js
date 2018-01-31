@@ -150,7 +150,7 @@ $(window).bind('load', function(){
 
 				xLabel = svg.select('.x.axis')
 					.append('text')
-						.text("Estimated income based on students' census tracks");
+						.text("Estimated income based on students' census tracts");
 
 				yLabel = svg.select('.y.axis').selectAll('.ylabel')
 						.data(levels).enter()
